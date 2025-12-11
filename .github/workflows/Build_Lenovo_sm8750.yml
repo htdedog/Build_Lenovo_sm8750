@@ -201,7 +201,6 @@ jobs:
 
       
       - name: ⚙️ Set SuKiSU Ultra (设置SuKiSU Ultra)
-        if: ${{inputs.enable_feature_b}}
         id: ksu_version
         run: |
             cd kernel_workspace
